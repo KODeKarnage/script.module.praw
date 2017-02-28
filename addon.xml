@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.praw"
+       name="praw"
+       version="4.4.0"
+       provider-name="Bryce Boe, KODeKarnage">
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python Reddit API Wrapper</summary>
+    <description>Packed for KODI from https://github.com/praw-dev/praw</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum></forum>
+    <website>https://praw.readthedocs.io/en/latest/</website>
+    <source>https://github.com/KODeKarnage/script.module.praw</source>
+    <email>subliminal.karnage AT gmail.com</email>
+  </extension>
+</addon>
