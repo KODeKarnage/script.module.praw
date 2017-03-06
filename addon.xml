@@ -5,6 +5,7 @@
        provider-name="Bryce Boe, KODeKarnage">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
+    <import addon="script.module.prawcore" version="0.8.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
