@@ -7,7 +7,7 @@ try:
 except ImportError:  # pragma: no cover
     UPDATE_CHECKER_MISSING = True
     
-from prawcore import (Authorizer, DeviceIDAuthorizer, ReadOnlyAuthorizer,
+from prawcore.prawcore import (Authorizer, DeviceIDAuthorizer, ReadOnlyAuthorizer,
                       Redirect, Requestor, ScriptAuthorizer,
                       TrustedAuthenticator, UntrustedAuthenticator, session)
 
