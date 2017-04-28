@@ -5,14 +5,13 @@
        provider-name="Bryce Boe, KODeKarnage">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
-    <import addon="script.module.prawcore" version="0.8.0"/>
     <import addon="script.module.requests" version="2.12.4"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary>Python Reddit API Wrapper</summary>
-    <description>Packed for KODI from https://github.com/praw-dev/praw</description>
+    <description>Packed for KODI from https://github.com/praw-dev/praw and https://github.com/praw-dev/prawcore 0.8.0</description>
     <platform>all</platform>
     <language></language>
     <license>BSD</license>

@@ -3,6 +3,16 @@ from copy import deepcopy
 from json import dumps
 import time
 
+# workaround to allow both praw and prawcore in the same module
+import inspect
+import os
+import sys
+cfd = inspect.stack()[0][1]
+cfd = os.path.dirname(cfd)
+cfd = os.path.dirname(cfd)
+sys.path.append( os.path.join( cfd , 'prawcore') )
+# /workaround
+
 from prawcore import Redirect
 
 from ...const import API_PATH, urljoin
